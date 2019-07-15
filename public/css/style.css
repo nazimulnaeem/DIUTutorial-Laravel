@@ -1,0 +1,121 @@
+
+
+/*about admin flipcard*/
+
+
+   .maincontainer{
+                position: relative;
+                width: 300px;
+                height: 400px;
+                /*                background: green;*/
+
+            }
+            .thecard{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transform-style: preserve-3d;
+                transition: all 0.5s ease;
+                /*                background: yellow;*/
+               
+/*                border: 1px solid #333;
+                border-radius: 5px;*/
+                
+            }
+            .thecard:hover{
+                transform: rotateY(180deg);
+            }
+            .thefront{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+                background: #E4F0FC;
+                color: #333;
+                text-align: center;
+                font-family: 'zilla slab',sans-serif;
+                border-radius: 5px;
+/*                font-size: 20px;
+                font-weight: bold;*/
+            }
+            .theback{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                backface-visibility: hidden;
+                background: #D0F0FB;
+                color: #333;
+                font-family: 'zilla slab',sans-serif;
+                border-radius: 5px;
+                transform: rotateY(180deg);
+            }
+            .icon{
+                display: inline-block;
+                width: 36px;
+                height: 36px;
+                text-align: center;
+                background: #A8A8A8;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 50%;
+                transition: 0.5s;  
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 25px;
+            }
+            .icon:hover{
+                color: #FEEE9E;
+                background: #8FD200;
+            }
+
+
+/*end about admin flipcard*/
+
+
+
+/*teacher registration form css*/
+
+.registration{
+    background-image: url(img/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: new time roman;
+}
+.registration .register h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/*.register{
+    background: rgba(1,0.25,0,0.5);
+    margin-top: 40px;
+}*/
+.label{
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+}
+.input-group{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+.input-group-addon{
+    background: transparent;
+    border-radius: 2px;
+    border: 0px;
+    border-bottom: 1px solid red;
+    font-size: 18px;
+}
+.form-control{
+   background: transparent;
+   border-radius: 0px;
+   border: 0px;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+   color: white;
+}
+
+/*end teacher registration form css*/
