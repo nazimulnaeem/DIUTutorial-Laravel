@@ -66,7 +66,7 @@
                              font-weight: 600;">
                             <i class="fa fa-book" aria-hidden="true" style="color: sandybrown; font-size: 60px; padding-top: 20px;"></i>
                             <div class="card-body">
-                                <h2>Question Bank</h2>
+                                <a href="{{ route('student.show.all_question') }}"><h2>Question Bank</h2></a>
                                 <p>There have some some question type.</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                              font-weight: 600;">
                             <i class="fa fa-user" aria-hidden="true" style="color: sandybrown; font-size: 60px; padding-top: 20px;"></i>
                             <div class="card-body">
-                                <h2>Faculty</h2>
+                                <a href="{{ route('student.show.all_faculty') }}"><h2>Faculty</h2></a>
                                 <p>There have all faculty member.</p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                              font-weight: 600;">
                             <i class="fa fa-youtube" aria-hidden="true" style="color: sandybrown; font-size: 60px; padding-top: 20px;"></i>
                             <div class="card-body">
-                                <h2>Video Tutorial</h2>
+                                <a href=""><h2>Video Tutorial</h2></a>
                                 <p>There have some course related tutorial.</p>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                              font-weight: 600;">
                             <i class="fa fa-file" aria-hidden="true" style="color: sandybrown; font-size: 60px; padding-top: 20px;"></i>
                             <div class="card-body">
-                                <h2>Upload file's</h2>
+                                <a href=""><h2>Upload file's</h2></a>
                                 <p>If you want you can upload file.</p>
                             </div>
                         </div>

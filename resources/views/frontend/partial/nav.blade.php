@@ -24,9 +24,9 @@
                 <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">Features</a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="{{ route('question.view') }}">Question</a>
-                    <a class="dropdown-item" href="">Faculty member</a>
-                    <a class="dropdown-item" href="#">Classroom</a>
+                    <a class="dropdown-item" href="{{ route('student.show.all_question') }}">Question</a>
+                    <a class="dropdown-item" href="{{ route('student.show.all_faculty') }}">Faculty member</a>
+                    <a class="dropdown-item" href="{{ route('student.show.teacher_all_post') }}">Teacher All post</a>
                     <a class="dropdown-item" href="#">Question solve</a>
                 </div>
             </li>

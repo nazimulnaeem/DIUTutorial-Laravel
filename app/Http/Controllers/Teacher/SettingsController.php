@@ -24,11 +24,13 @@ class SettingsController extends Controller
          $this->validate($request,[
             'name' => 'required',
             'email' => 'required|email',
-            'image' => 'nullable|image|mimes:jpeg,bmp,png,jpg'
+            'image' => 'nullable|image|max:2048|mimes:jpeg,bmp,png,jpg'
         ]);
         //$image = $request->file('image');
         $slug = str_slug($request->name);
         $user = User::findOrFail(Auth::id());
+        
+        // return $user;
         /*if (isset($image))
         {
             $currentDate = Carbon::now()->toDateString();

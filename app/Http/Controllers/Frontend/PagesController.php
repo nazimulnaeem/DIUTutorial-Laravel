@@ -21,18 +21,18 @@ class PagesController extends Controller
         return view('frontend.pages.others.index');
     }
     
-    public function search(Request $request){
+//     public function search(Request $request){
     
-    $search = $request->search;
+//     $search = $request->search;
     
-    $questions = Question::orWhere('subject_name','like','%'.$search.'%')
-            ->orWhere('course_code','like','%'.$search.'%')
-            ->orWhere('passing_year','like','%'.$search.'%')
-            ->orWhere('term','like','%'.$search.'%')
-            ->orderBy('id', 'desc')
-            ->paginate(9);
+//     $questions = Question::orWhere('subject_name','like','%'.$search.'%')
+//             ->orWhere('course_code','like','%'.$search.'%')
+//             ->orWhere('passing_year','like','%'.$search.'%')
+//             ->orWhere('term','like','%'.$search.'%')
+//             ->orderBy('id', 'desc')
+//             ->paginate(9);
     
-    return view('frontend.pages.question.partial.search', compact('search', 'questions'));
-}
+//     return view('frontend.pages.question.partial.search', compact('search', 'questions'));
+// }
     
 }

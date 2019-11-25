@@ -73,10 +73,10 @@
                     <h6 class="text-uppercase font-weight-bold">Content</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Question</a>
+                        <a href="{{ route('student.show.all_question') }}">Question</a>
                     </p>
                     <p>
-                        <a href="#!">Faculty</a>
+                        <a href="{{ route('student.show.all_faculty') }}">Faculty</a>
                     </p>
                     <p>
                         <a href="#!">Tutorial</a>

@@ -128,73 +128,8 @@
                             </li>
                             
          
-<!--          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="menu-icon mdi mdi-restart"></i>
-              <span class="menu-title">Manage Student</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Manage students </a>
-                  <a class="nav-link" href=""> Add student </a>
-                </li>
-                
-              </ul>
-            </div>
-          </li>
-          
-          
-          
-           <li class="nav-item">
-               <a class="nav-link" data-toggle="teacher-page" href="#ui-basic" data-target="teacher-page-9" id="" aria-expanded="false" aria-controls="ui-basic">
-              <i class="menu-icon mdi mdi-content-copy"></i>
-              <span class="menu-title">Manage Teacher</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="teacher-page" id="teacher-page">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <a class="nav-link" href="">Manage teacher</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Edit teacher info</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          -->
-             
-          
-          
-            
-<!--             <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="menu-icon mdi mdi-restart"></i>
-              <span class="menu-title">User Pages</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/login.html"> Login </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/register.html"> Register </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/error-404.html"> 404 </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/error-500.html"> 500 </a>
-                </li>
-              </ul>
-            </div>
-          </li>-->
+
+
         </ul>
       </nav>
       <!-- partial -->

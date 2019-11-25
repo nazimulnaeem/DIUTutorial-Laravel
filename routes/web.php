@@ -33,22 +33,6 @@ Route::post('/registration', 'Auth\Admin\RegistrationController@store')->name('r
 
 
 
-//   Route for question
-Route::group(['prefix' => 'question'], function () {
-
-    
-    Route::get('/', 'Frontend\QuestionController@question_view')->name('question.view');
-    Route::get('/{slug}', 'Frontend\QuestionController@question_show')->name('question.show');
-    // for insert question
-//    Route::get('/create', 'Frontend\QuestionController@insert')->name('user.question.insert');
-//    Route::post('/create', 'Frontend\QuestionController@store')->name('question.store');
-});
-
-
-
-
-
-
 //   Route for student
 // 'middleware'=>['auth','user']],
 Route::group(['prefix' => 'student','namespace'=>'Student','middleware'=>['auth','user']], function () {

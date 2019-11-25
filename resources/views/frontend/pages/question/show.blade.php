@@ -9,14 +9,10 @@ Question sight
 
 
 
-
-
-
 <div class="container mrgt-20 mt-3">
     <div class="row">
 
-
-        <div class="col-md-8">
+    <div class="col-md-8">
 
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
